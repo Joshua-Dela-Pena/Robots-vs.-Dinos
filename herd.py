@@ -6,10 +6,10 @@ class Herd:
         self.create_herd()
         
     def create_herd(self):
-            dino_one = Dinosaurs("oll", 50, 100)
-            dino_two = Dinosaurs("llo", 50, 100)
-            dino_three = Dinosaurs("lol", 50, 100)
+            dinosaur_one = Dinosaurs("oll", 50, 100)
+            dinosaur_two = Dinosaurs("llo", 50, 100)
+            dinosaur_three = Dinosaurs("lol", 50, 100)
             
-            self.dinosaur_herd(dino_one)
-            self.dinosaur_herd(dino_two)
-            self.dinosaur_herd(dino_three)
+            self.dinosaur_herd(dinosaur_one)
+            self.dinosaur_herd(dinosaur_two)
+            self.dinosaur_herd(dinosaur_three)
