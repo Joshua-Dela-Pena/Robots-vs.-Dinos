@@ -7,12 +7,10 @@ class Fleet:
         self.create_fleet()
         
     def create_fleet(self):
-        robot_one = Robots("lamo", 100, weapons)
-        robot_two = Robots("amol", 100, weapons)
-        robot_three = Robots("lmao", 100, weapons)
+        robo_one = Robots("lamo", 100, weapons)
+        robo_two = Robots("amol", 100, weapons)
+        robo_three = Robots("lmao", 100, weapons)
         
-        self.fleet_list.append(robot_one)
-        self.fleet_list.append(robot_two)
-        self.fleet_list.append(robot_three)
-
-
+        self.fleet_list.append(robo_one)
+        self.fleet_list.append(robo_two)
+        self.fleet_list.append(robo_three)
